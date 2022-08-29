@@ -20,7 +20,7 @@ builder.Services.AddCors(options =>
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(swaggerGenOptions =>
 {
-    swaggerGenOptions.SwaggerDoc("v1", new OpenApiInfo { Title = "ASP.NET React Tutorial", Version = "v1" });
+    swaggerGenOptions.SwaggerDoc("v1", new OpenApiInfo { Title = "ASP.NET React / Azure CI/CD / GitHub", Version = "v1" });
 });
 
 var app = builder.Build();

@@ -47,7 +47,7 @@ export default function App() {
         <div className="col d-flex flex-column justify-content-center align-items-center">
           {(showingCreateNewPostForm === false && postCurrentlyBeingUpdated === null) && (
             <div>
-              <h1>ASP.NET Core React Tutorial</h1>
+              <h1>ASP.NET Core React / Azure CI/CD GitHub</h1>
 
               <div className="mt-5">
                 <button onClick={getPosts} className="btn btn-dark btn-lg w-100">Get Posts from server</button>
@@ -105,7 +105,7 @@ export default function App() {
       return;
     }
 
-    alert(`Post successfully created. After clicking OK, your new post tilted "${createdPost.title}" will show up in the table below.`);
+    alert(`Post successfully created. After clicking OK, your new post titled "${createdPost.title}" will show up in the table below.`);
 
     getPosts();
   }
